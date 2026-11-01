@@ -1,0 +1,16 @@
+{
+  "completed_runs": 12,
+  "test_evaluations": 5,
+  "test_reviews": 48257,
+  "checks": [
+    "text disjointness",
+    "train/test label alignment",
+    "equal search coverage",
+    "validation-only selections",
+    "parameter consistency",
+    "independent accuracy and Macro-F1 arithmetic",
+    "confusion matrix reconciliation",
+    "checkpoint epoch histories",
+    "selection saved before test predictions"
+  ]
+}

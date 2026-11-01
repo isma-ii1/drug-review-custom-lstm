@@ -1,0 +1,58 @@
+{
+  "accuracy": 0.7041465486872371,
+  "macro_f1": 0.5583469734554144,
+  "loss": 0.748477700163876,
+  "inference_seconds": 16.10251120000612,
+  "classification_report": {
+    "Negative": {
+      "precision": 0.6515270164447925,
+      "recall": 0.6192011907715207,
+      "f1-score": 0.6349529381836683,
+      "support": 12093.0
+    },
+    "Neutral": {
+      "precision": 0.17188350571584105,
+      "recall": 0.2914167051222889,
+      "f1-score": 0.2162300975860298,
+      "support": 4334.0
+    },
+    "Positive": {
+      "precision": 0.8576624966004895,
+      "recall": 0.792617027961043,
+      "f1-score": 0.8238578845965451,
+      "support": 31830.0
+    },
+    "accuracy": 0.7041465486872371,
+    "macro avg": {
+      "precision": 0.5603576729203744,
+      "recall": 0.5677449746182842,
+      "f1-score": 0.5583469734554144,
+      "support": 48257.0
+    },
+    "weighted avg": {
+      "precision": 0.7444154545544255,
+      "recall": 0.7041465486872371,
+      "f1-score": 0.7219475638995582,
+      "support": 48257.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      7488,
+      2190,
+      2415
+    ],
+    [
+      1299,
+      1263,
+      1772
+    ],
+    [
+      2706,
+      3895,
+      25229
+    ]
+  ],
+  "run_id": "wmc_fixed",
+  "comparison": "fixed+selected"
+}

@@ -1,0 +1,150 @@
+{
+  "train_source": {
+    "raw_rows": 161297,
+    "columns": [
+      "uniqueID",
+      "drugName",
+      "condition",
+      "review",
+      "rating",
+      "date",
+      "usefulCount"
+    ],
+    "missing": {
+      "uniqueID": 0,
+      "drugName": 0,
+      "condition": 899,
+      "review": 0,
+      "rating": 0,
+      "date": 0,
+      "usefulCount": 0,
+      "normalized": 0
+    },
+    "duplicate_ids": 0,
+    "duplicate_text_rows": 49012,
+    "invalid_required_rows": 2,
+    "rating_counts": {
+      "1": 21619,
+      "2": 6931,
+      "3": 6513,
+      "4": 5012,
+      "5": 8013,
+      "6": 6343,
+      "7": 9456,
+      "8": 18890,
+      "9": 27531,
+      "10": 50989
+    },
+    "conflicting_texts": 14,
+    "conflicting_rows_removed": 113,
+    "same_label_duplicates_removed": 48912,
+    "clean_unique_rows": 112270,
+    "rows_overlapping_raw_test_removed": 32111
+  },
+  "test_source": {
+    "raw_rows": 53766,
+    "columns": [
+      "uniqueID",
+      "drugName",
+      "condition",
+      "review",
+      "rating",
+      "date",
+      "usefulCount"
+    ],
+    "missing": {
+      "uniqueID": 0,
+      "drugName": 0,
+      "condition": 295,
+      "review": 0,
+      "rating": 0,
+      "date": 0,
+      "usefulCount": 0,
+      "normalized": 0
+    },
+    "duplicate_ids": 0,
+    "duplicate_text_rows": 5504,
+    "invalid_required_rows": 0,
+    "rating_counts": {
+      "1": 7299,
+      "2": 2334,
+      "3": 2205,
+      "4": 1659,
+      "5": 2710,
+      "6": 2119,
+      "7": 3091,
+      "8": 6156,
+      "9": 9177,
+      "10": 17016
+    },
+    "conflicting_texts": 5,
+    "conflicting_rows_removed": 15,
+    "same_label_duplicates_removed": 5494,
+    "clean_unique_rows": 48257
+  },
+  "seed": 42,
+  "train_pool_rows": 64127,
+  "validation_pool_rows": 16032,
+  "max_length": 160,
+  "vocab_size": 12000,
+  "splits": {
+    "train": {
+      "rows": 15000,
+      "class_counts": {
+        "Negative": 3691,
+        "Neutral": 1328,
+        "Positive": 9981
+      },
+      "token_length_quantiles": {
+        "p25": 49.0,
+        "p50": 86.0,
+        "p75": 128.0,
+        "p90": 143.0,
+        "p95": 148.0,
+        "p99": 157.0
+      },
+      "truncation_rate": 0.0046,
+      "unknown_token_rate": 0.006356935984770649
+    },
+    "validation": {
+      "rows": 3000,
+      "class_counts": {
+        "Negative": 738,
+        "Neutral": 266,
+        "Positive": 1996
+      },
+      "token_length_quantiles": {
+        "p25": 47.0,
+        "p50": 85.0,
+        "p75": 129.0,
+        "p90": 143.0,
+        "p95": 149.0,
+        "p99": 158.0
+      },
+      "truncation_rate": 0.006666666666666667,
+      "unknown_token_rate": 0.011415329156295596
+    },
+    "test": {
+      "rows": 48257,
+      "class_counts": {
+        "Negative": 12093,
+        "Neutral": 4334,
+        "Positive": 31830
+      },
+      "token_length_quantiles": {
+        "p25": 49.0,
+        "p50": 85.0,
+        "p75": 128.0,
+        "p90": 143.0,
+        "p95": 148.0,
+        "p99": 157.0
+      },
+      "truncation_rate": 0.005242762708000912,
+      "unknown_token_rate": 0.010502211660144097
+    }
+  },
+  "source_sha256": {
+    "train": "bc0902b21af0db5b99568a7639ed5f7dad3494a8186a20d05c5b4016c6caedf4",
+    "test": "dfdaa5245b3f24e2af2b26ff4b21b798159c2d54184da9846c9458b83d1897c3"
+  }
+}

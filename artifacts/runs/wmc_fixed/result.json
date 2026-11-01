@@ -1,0 +1,23 @@
+{
+  "learning_rate": 0.003,
+  "batch_size": 256,
+  "optimizer": "adamw",
+  "dropout": 0.2,
+  "weight_decay": 0.01,
+  "epochs": 6,
+  "embedding_dim": 64,
+  "hidden_size": 32,
+  "setting": "fixed",
+  "variant": "wmc",
+  "run_id": "wmc_fixed",
+  "seed": 42,
+  "best_val_macro_f1": 0.5570774485286588,
+  "best_epoch": 4,
+  "epochs_run": 6,
+  "training_seconds": 100.59019180003088,
+  "total_parameters": 783587,
+  "recurrent_parameters": 15488,
+  "embedding_parameters": 768000,
+  "head_parameters": 99,
+  "checkpoint": "checkpoints\\wmc_fixed.pt"
+}

@@ -1,0 +1,23 @@
+{
+  "learning_rate": 0.003,
+  "batch_size": 256,
+  "optimizer": "adam",
+  "dropout": 0.2,
+  "weight_decay": 0.01,
+  "epochs": 6,
+  "embedding_dim": 64,
+  "hidden_size": 32,
+  "setting": "adam",
+  "variant": "wmc",
+  "run_id": "wmc_adam",
+  "seed": 42,
+  "best_val_macro_f1": 0.285645729939857,
+  "best_epoch": 1,
+  "epochs_run": 4,
+  "training_seconds": 67.66426049999427,
+  "total_parameters": 783587,
+  "recurrent_parameters": 15488,
+  "embedding_parameters": 768000,
+  "head_parameters": 99,
+  "checkpoint": "checkpoints\\wmc_adam.pt"
+}

@@ -1,0 +1,13 @@
+learning_rate,batch_size,optimizer,dropout,weight_decay,epochs,embedding_dim,hidden_size,setting,variant,run_id,seed,best_val_macro_f1,best_epoch,epochs_run,training_seconds,total_parameters,recurrent_parameters,embedding_parameters,head_parameters,checkpoint
+0.003,256,adamw,0.2,0.01,6,64,32,fixed,vanilla,vanilla_fixed,42,0.5425324914084477,2,5,66.47669539996423,780515,12416,768000,99,checkpoints\vanilla_fixed.pt
+0.001,256,adamw,0.2,0.01,6,64,32,lr_0.001,vanilla,vanilla_lr_0.001,42,0.5576057863957645,5,6,81.68616480007768,780515,12416,768000,99,checkpoints\vanilla_lr_0.001.pt
+0.003,128,adamw,0.2,0.01,6,64,32,batch_128,vanilla,vanilla_batch_128,42,0.5656619208400556,2,5,76.85008540004492,780515,12416,768000,99,checkpoints\vanilla_batch_128.pt
+0.003,256,adam,0.2,0.01,6,64,32,adam,vanilla,vanilla_adam,42,0.3388700993098195,1,4,51.42658999993,780515,12416,768000,99,checkpoints\vanilla_adam.pt
+0.003,256,adamw,0.2,0.01,6,64,32,fixed,cifg,cifg_fixed,42,0.555799867236958,4,6,72.81368900008965,777411,9312,768000,99,checkpoints\cifg_fixed.pt
+0.001,256,adamw,0.2,0.01,6,64,32,lr_0.001,cifg,cifg_lr_0.001,42,0.565198668976956,5,6,73.6381808000151,777411,9312,768000,99,checkpoints\cifg_lr_0.001.pt
+0.003,128,adamw,0.2,0.01,6,64,32,batch_128,cifg,cifg_batch_128,42,0.5547086016365367,4,6,81.80624750000425,777411,9312,768000,99,checkpoints\cifg_batch_128.pt
+0.003,256,adam,0.2,0.01,6,64,32,adam,cifg,cifg_adam,42,0.2663464104617027,4,6,72.14751929999329,777411,9312,768000,99,checkpoints\cifg_adam.pt
+0.003,256,adamw,0.2,0.01,6,64,32,fixed,wmc,wmc_fixed,42,0.5570774485286588,4,6,100.59019180003088,783587,15488,768000,99,checkpoints\wmc_fixed.pt
+0.001,256,adamw,0.2,0.01,6,64,32,lr_0.001,wmc,wmc_lr_0.001,42,0.5447476855450698,6,6,103.40665190003347,783587,15488,768000,99,checkpoints\wmc_lr_0.001.pt
+0.003,128,adamw,0.2,0.01,6,64,32,batch_128,wmc,wmc_batch_128,42,0.5555912655285596,4,6,125.32585700007621,783587,15488,768000,99,checkpoints\wmc_batch_128.pt
+0.003,256,adam,0.2,0.01,6,64,32,adam,wmc,wmc_adam,42,0.285645729939857,1,4,67.66426049999427,783587,15488,768000,99,checkpoints\wmc_adam.pt

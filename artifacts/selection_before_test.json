@@ -1,0 +1,5 @@
+{
+  "vanilla": "vanilla_batch_128",
+  "cifg": "cifg_lr_0.001",
+  "wmc": "wmc_fixed"
+}

@@ -1,0 +1,23 @@
+{
+  "learning_rate": 0.003,
+  "batch_size": 256,
+  "optimizer": "adamw",
+  "dropout": 0.2,
+  "weight_decay": 0.01,
+  "epochs": 6,
+  "embedding_dim": 64,
+  "hidden_size": 32,
+  "setting": "fixed",
+  "variant": "vanilla",
+  "run_id": "vanilla_fixed",
+  "seed": 42,
+  "best_val_macro_f1": 0.5425324914084477,
+  "best_epoch": 2,
+  "epochs_run": 5,
+  "training_seconds": 66.47669539996423,
+  "total_parameters": 780515,
+  "recurrent_parameters": 12416,
+  "embedding_parameters": 768000,
+  "head_parameters": 99,
+  "checkpoint": "checkpoints\\vanilla_fixed.pt"
+}

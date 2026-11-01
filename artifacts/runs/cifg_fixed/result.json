@@ -1,0 +1,23 @@
+{
+  "learning_rate": 0.003,
+  "batch_size": 256,
+  "optimizer": "adamw",
+  "dropout": 0.2,
+  "weight_decay": 0.01,
+  "epochs": 6,
+  "embedding_dim": 64,
+  "hidden_size": 32,
+  "setting": "fixed",
+  "variant": "cifg",
+  "run_id": "cifg_fixed",
+  "seed": 42,
+  "best_val_macro_f1": 0.555799867236958,
+  "best_epoch": 4,
+  "epochs_run": 6,
+  "training_seconds": 72.81368900008965,
+  "total_parameters": 777411,
+  "recurrent_parameters": 9312,
+  "embedding_parameters": 768000,
+  "head_parameters": 99,
+  "checkpoint": "checkpoints\\cifg_fixed.pt"
+}

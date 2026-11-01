@@ -1,0 +1,23 @@
+{
+  "learning_rate": 0.003,
+  "batch_size": 256,
+  "optimizer": "adam",
+  "dropout": 0.2,
+  "weight_decay": 0.01,
+  "epochs": 6,
+  "embedding_dim": 64,
+  "hidden_size": 32,
+  "setting": "adam",
+  "variant": "vanilla",
+  "run_id": "vanilla_adam",
+  "seed": 42,
+  "best_val_macro_f1": 0.3388700993098195,
+  "best_epoch": 1,
+  "epochs_run": 4,
+  "training_seconds": 51.42658999993,
+  "total_parameters": 780515,
+  "recurrent_parameters": 12416,
+  "embedding_parameters": 768000,
+  "head_parameters": 99,
+  "checkpoint": "checkpoints\\vanilla_adam.pt"
+}
